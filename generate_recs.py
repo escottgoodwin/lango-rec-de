@@ -13,7 +13,6 @@ from bs4 import BeautifulSoup
 import traceback
 from requests.exceptions import HTTPError
 
-
 user = os.getenv('PGCONNECT_USER')
 password = os.getenv('PGCONNECT_PASSWORD')
 host = os.getenv('PGCONNECT_HOST')
